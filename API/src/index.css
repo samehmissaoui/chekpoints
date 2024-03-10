@@ -1,0 +1,25 @@
+body {
+  padding: 20px 100px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+  color: rgb(44, 46, 46);
+  background: radial-gradient(
+    rgb(144, 186, 214) 24.5%,
+    rgb(104, 154, 192) 66%,
+      rgb(104, 127, 154) 90%
+  );
+  font-family: "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+hr {
+  width: 50%;
+}
+#root > div > div > h1 {
+  margin-bottom: 10px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

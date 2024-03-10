@@ -1,0 +1,129 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-content: center;
+}
+.shop ul li a{
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(16, 16, 125);
+    border-bottom: 2px solid #585b5e;
+}
+#Statements {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-style: solid;
+    border-width: 0,5px;
+    border-color: rgb(23, 23, 85);
+}
+#Statements h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.product-grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 0,5px;
+    border-color: rgb(23, 23, 85);
+}
+.product-grid img {
+    height: 300px;
+    width: 300px;
+    border-radius: 400px;
+    padding: 20px;
+    border-bottom: 5px solid #E1E8EE;
+}
+.product {
+    display: flex;
+    justify-content: space between;
+}
+.addCart-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 70px;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
+    text-align: center;
+    border-bottom: 2px solid #585b5e;
+    
+}
+.addCart-btn h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 200px;
+}
+.addCart-btn p {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 200px;
+}
+.addCart-btn button {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50px;
+    height: 30px;
+    border: none;
+}
+.like_button {
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.quantity {
+    display: flex;
+    justify-content: space-around ;
+    width: 100px;
+}
+.quantity input {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.quantity button {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.total {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-left: 800px;
+    margin-right: auto;
+    width: 400px;
+    border-style: solid;
+    border-width: 0,5px;
+    border-color: rgb(23, 23, 85);;
+}
+.total h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.total input {
+    margin:auto auto;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    color: #4b4a4a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

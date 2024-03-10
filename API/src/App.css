@@ -1,0 +1,47 @@
+
+
+body {
+  font-family: 'Arial', sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+.App-logo {
+  width: 100px; 
+  height: auto; 
+  margin-top: 20px; 
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: spin 2s linear infinite; 
+  }
+}
+
+.App-header {
+  background-color: #34db8d; 
+  padding: 40px; 
+  text-align: center;
+}
+
+
+.App-title {
+  font-size: 2em; 
+  margin-bottom: 20px; 
+  color: #ffffff; 
+}
+
+.App-subtitle {
+  font-size: 1.2em; 
+  color: #2d9169; 
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
